@@ -1,0 +1,509 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200701.194118.98951.0.001.json",
+    "dumpEventTime": "2020-07-01T19:41:18Z",
+    "dumpEventTimeStamp": "1593603678999",
+    "processId": 98951,
+    "cwd": "/Users/wuxichen/zf/js",
+    "commandLine": [
+      "node",
+      "/Users/wuxichen/zf/js/tempCodeRunnerFile.js"
+    ],
+    "nodejsVersion": "v12.10.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "darwin",
+    "componentVersions": {
+      "node": "12.10.0",
+      "v8": "7.6.303.29-node.16",
+      "uv": "1.31.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.10.0/node-v12.10.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.10.0/node-v12.10.0.tar.gz"
+    },
+    "osName": "Darwin",
+    "osRelease": "18.6.0",
+    "osVersion": "Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 161227610,
+        "nice": 0,
+        "sys": 94640930,
+        "idle": 1405776610,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 2738470,
+        "nice": 0,
+        "sys": 3630890,
+        "idle": 1654563050,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 132821930,
+        "nice": 0,
+        "sys": 59085560,
+        "idle": 1469049080,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 2554400,
+        "nice": 0,
+        "sys": 2828520,
+        "idle": 1655546130,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 96756240,
+        "nice": 0,
+        "sys": 42864770,
+        "idle": 1521331140,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 2530920,
+        "nice": 0,
+        "sys": 2514130,
+        "idle": 1655880630,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 70951610,
+        "nice": 0,
+        "sys": 29621250,
+        "idle": 1560374880,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 2409150,
+        "nice": 0,
+        "sys": 2169980,
+        "idle": 1656343170,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 51670110,
+        "nice": 0,
+        "sys": 20370820,
+        "idle": 1588902470,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 2383270,
+        "nice": 0,
+        "sys": 1902010,
+        "idle": 1656633610,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 40847870,
+        "nice": 0,
+        "sys": 15527070,
+        "idle": 1604564120,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz",
+        "speed": 2600,
+        "user": 2282270,
+        "nice": 0,
+        "sys": 1695000,
+        "idle": 1656938200,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::1",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 1
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "a4:83:e7:69:d7:45",
+        "address": "fe80::d6:559d:325b:6cea",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "a4:83:e7:69:d7:45",
+        "address": "192.168.1.9",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "awdl0",
+        "internal": false,
+        "mac": "6a:fd:e1:ba:44:7c",
+        "address": "fe80::68fd:e1ff:feba:447c",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 13
+      },
+      {
+        "name": "utun0",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::eee0:5f27:cb1b:d8a5",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 19
+      },
+      {
+        "name": "utun1",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::ca00:ca3a:3c3e:c403",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 20
+      },
+      {
+        "name": "utun2",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::8070:52c6:2cd4:71bd",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 21
+      },
+      {
+        "name": "en5",
+        "internal": false,
+        "mac": "ac:de:48:00:11:22",
+        "address": "fe80::aede:48ff:fe00:1122",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 9
+      }
+    ],
+    "host": "wuxichendeMacBook-Pro.local"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00000001001461d0",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, v8::Local<v8::String>) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000100078d95",
+      "symbol": "node::OnFatalError(char const*, char const*) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x000000010016e8d7",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x000000010016e873",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002f2605",
+      "symbol": "v8::internal::Heap::FatalProcessOutOfMemory(char const*) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002f3d2d",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002f0ae6",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002eea3c",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002fa114",
+      "symbol": "v8::internal::Heap::AllocateRawWithLightRetry(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002fa18f",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002c8737",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001005e8f67",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001009288f9",
+      "symbol": "Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit [/usr/local/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2155937792,
+    "totalCommittedMemory": 2154014120,
+    "usedMemory": 2149960224,
+    "availableMemory": 44864640,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 31744,
+        "capacity": 261832,
+        "used": 31432,
+        "available": 230400
+      },
+      "new_space": {
+        "memorySize": 3145728,
+        "committedMemory": 1910096,
+        "capacity": 1570992,
+        "used": 626552,
+        "available": 944440
+      },
+      "old_space": {
+        "memorySize": 2151788544,
+        "committedMemory": 2151564888,
+        "capacity": 2149188552,
+        "used": 2148947248,
+        "available": 241304
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 215936,
+        "capacity": 181376,
+        "used": 181376,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 266240,
+        "committedMemory": 242304,
+        "capacity": 170160,
+        "used": 170160,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3456,
+        "used": 3456,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1570992,
+        "used": 0,
+        "available": 1570992
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 49.7681,
+    "kernelCpuSeconds": 1.39107,
+    "cpuConsumptionPercent": 159.872,
+    "maxRss": 2266945814528,
+    "pageFaults": {
+      "IORequired": 27,
+      "IONotRequired": 616006
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "VSCODE_NODE_CACHED_DATA_DIR": "/Users/wuxichen/Library/Application Support/Code/CachedData/78a4c91400152c0f27ba4d363eb56d2835f9903a",
+    "SHELL": "/bin/bash",
+    "AMD_ENTRYPOINT": "vs/workbench/services/extensions/node/extensionHostProcess",
+    "TMPDIR": "/var/folders/5k/l7hzv1zn3b76k4tsb2_89drc0000gn/T/",
+    "Apple_PubSub_Socket_Render": "/private/tmp/com.apple.launchd.oHTcYdzYOJ/Render",
+    "USER": "wuxichen",
+    "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.c6ZUYBOPi7/Listeners",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x19:0x34",
+    "VSCODE_LOG_STACK": "false",
+    "ELECTRON_RUN_AS_NODE": "1",
+    "VSCODE_LOGS": "/Users/wuxichen/Library/Application Support/Code/logs/20200530T151416",
+    "MAVEN_HOME": "/Users/wuxichen/buzirui/apache-maven-3.6.2",
+    "PATH": "./usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home/bin:/usr/local/bin:/Users/wuxichen/buzirui/apache-maven-3.6.2/bin/",
+    "_": "/usr/local/bin/node",
+    "PWD": "/Users/wuxichen/zf/js",
+    "VSCODE_HANDLES_UNCAUGHT_ERRORS": "true",
+    "JAVA_HOME": "/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home",
+    "XPC_FLAGS": "0x0",
+    "XPC_SERVICE_NAME": "com.microsoft.VSCode.7940",
+    "SHLVL": "2",
+    "HOME": "/Users/wuxichen",
+    "APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL": "true",
+    "PIPE_LOGGING": "true",
+    "VSCODE_IPC_HOOK_EXTHOST": "/var/folders/5k/l7hzv1zn3b76k4tsb2_89drc0000gn/T/vscode-ipc-46574242-530c-4906-a3b0-2b1c335e60c9.sock",
+    "VSCODE_NLS_CONFIG": "{\"locale\":\"zh-cn\",\"availableLanguages\":{},\"_languagePackSupport\":true}",
+    "LOGNAME": "wuxichen",
+    "VSCODE_IPC_HOOK": "/Users/wuxichen/Library/Application Support/Code/1.43.0-main.sock",
+    "VSCODE_PID": "41099",
+    "VERBOSE_LOGGING": "true",
+    "NODE_HOME": "/usr/local"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 24576,
+      "hard": "unlimited"
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": 67104768
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 1418,
+      "hard": 2128
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "/usr/local/bin/node",
+    "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+    "/usr/lib/libSystem.B.dylib",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/libDiagnosticMessagesClient.dylib",
+    "/usr/lib/libicucore.A.dylib",
+    "/usr/lib/libz.1.dylib",
+    "/usr/lib/libc++abi.dylib",
+    "/usr/lib/system/libcache.dylib",
+    "/usr/lib/system/libcommonCrypto.dylib",
+    "/usr/lib/system/libcompiler_rt.dylib",
+    "/usr/lib/system/libcopyfile.dylib",
+    "/usr/lib/system/libcorecrypto.dylib",
+    "/usr/lib/system/libdispatch.dylib",
+    "/usr/lib/system/libdyld.dylib",
+    "/usr/lib/system/libkeymgr.dylib",
+    "/usr/lib/system/liblaunch.dylib",
+    "/usr/lib/system/libmacho.dylib",
+    "/usr/lib/system/libquarantine.dylib",
+    "/usr/lib/system/libremovefile.dylib",
+    "/usr/lib/system/libsystem_asl.dylib",
+    "/usr/lib/system/libsystem_blocks.dylib",
+    "/usr/lib/system/libsystem_c.dylib",
+    "/usr/lib/system/libsystem_configuration.dylib",
+    "/usr/lib/system/libsystem_coreservices.dylib",
+    "/usr/lib/system/libsystem_darwin.dylib",
+    "/usr/lib/system/libsystem_dnssd.dylib",
+    "/usr/lib/system/libsystem_info.dylib",
+    "/usr/lib/system/libsystem_m.dylib",
+    "/usr/lib/system/libsystem_malloc.dylib",
+    "/usr/lib/system/libsystem_networkextension.dylib",
+    "/usr/lib/system/libsystem_notify.dylib",
+    "/usr/lib/system/libsystem_sandbox.dylib",
+    "/usr/lib/system/libsystem_secinit.dylib",
+    "/usr/lib/system/libsystem_kernel.dylib",
+    "/usr/lib/system/libsystem_platform.dylib",
+    "/usr/lib/system/libsystem_pthread.dylib",
+    "/usr/lib/system/libsystem_symptoms.dylib",
+    "/usr/lib/system/libsystem_trace.dylib",
+    "/usr/lib/system/libunwind.dylib",
+    "/usr/lib/system/libxpc.dylib",
+    "/System/Library/CoreServices/Encodings/libSimplifiedChineseConverter.dylib"
+  ]
+}
